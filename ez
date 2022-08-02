@@ -1,0 +1,58 @@
+Core.Name = "Core"
+Core.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Core.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+Core.ResetOnSpawn = false
+
+FrameCore.Name = "FrameCore"
+FrameCore.Parent = Core
+FrameCore.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FrameCore.Position = UDim2.new(0.265503854, 0, 0.350230396, 0)
+FrameCore.Size = UDim2.new(0, 442, 0, 295)
+FrameCore.Active = true
+FrameCore.
+
+Aimbot.Name = "Aimbot"
+Aimbot.Parent = FrameCore
+Aimbot.BackgroundColor3 = Color3.fromRGB(162, 235, 255)
+Aimbot.Position = UDim2.new(0.03167421, 0, 0.3084746, 0)
+Aimbot.Size = UDim2.new(0, 200, 0, 50)
+Aimbot.Font = Enum.Font.SourceSans
+Aimbot.Text = "Aimbot"
+Aimbot.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aimbot.TextSize = 14.000
+Aimbot.Button1Down:Connect(function()
+ print("gay")
+end)
+UICorner.Parent = Aimbot
+
+ImageLabel.Parent = Aimbot
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.659999967, 0, 0.24000001, 0)
+ImageLabel.Size = UDim2.new(0, 42, 0, 25)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7158102700"
+
+UICorner_2.Parent = ImageLabel
+
+UICorner_3.Parent = FrameCore
+
+Title.Name = "Title"
+Title.Parent = FrameCore
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.27375567, 0, 0, 0)
+Title.Size = UDim2.new(0, 200, 0, 50)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "ShitOnEm"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 21.000
+
+Title2.Name = "Title2"
+Title2.Parent = FrameCore
+Title2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title2.BackgroundTransparency = 1.000
+Title2.Position = UDim2.new(-0.0429864191, 0, 0.874576271, 0)
+Title2.Size = UDim2.new(0, 200, 0, 50)
+Title2.Font = Enum.Font.SourceSans
+Title2.Text = "Ping and Distance Aimbot"
+Title2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title2.TextSize = 15.000
